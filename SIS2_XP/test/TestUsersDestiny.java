@@ -58,7 +58,7 @@ public class TestUsersDestiny {
         assertEquals(destino.Verificar(), "Destino ya recorrido");
         
         destino = new Destino(idCliente,"IC. Norte","Circunvalacion");
-        assertEquals(destino.Verificar(), "Destino no encuentrado");
+        assertEquals(destino.Verificar(), "Destino no encontrado");
         
         destino = new Destino(idCliente,"IC. Norte","IC. Norte");
         assertEquals(destino.Verificar(), "Ya se encuentra en el destino");
