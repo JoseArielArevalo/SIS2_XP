@@ -10,6 +10,10 @@ public class Coordinates {
         this.longitude = longitude;
     }
 
+    public Coordinates(String latitude, String longitude) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
    public void setLongitude(double longitude) {
         this.longitude = longitude;
     }
