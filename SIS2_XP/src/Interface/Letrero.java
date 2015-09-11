@@ -1,5 +1,6 @@
 package Interface;
 
+import Transporte.Controlador;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Calendar;
@@ -8,12 +9,14 @@ import javax.swing.Timer;
 public class Letrero extends javax.swing.JPanel {
     
     public String hora;
+    Controlador cont;
     
     Timer ti;
     
     public Letrero() {
         initComponents();
         Hora();
+        cont = new Controlador();
         ti= new Timer(1000, actualizarPanel);
       
     }
@@ -296,6 +299,7 @@ private ActionListener actualizarPanel = new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
             Hora();
+            jTextActivo.setText(cont.getHora());
         }
          
     };
