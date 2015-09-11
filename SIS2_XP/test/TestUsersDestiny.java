@@ -31,16 +31,8 @@ public class TestUsersDestiny {
     
     @Before
     public void setUp() {
-        List<String> rutaBus = new ArrayList<String>();
-        rutaBus.add("Laguna");
-        rutaBus.add("UMSS");
-        rutaBus.add("Universidad Catolica");
-        rutaBus.add("America");
-        rutaBus.add("IC. Norte");
-        rutaBus.add("America y Libertadores");
-        rutaBus.add("America y Melchor Perez");
-        rutaBus.add("IC. Norte");
-        rutaBus.add("Blanco Galindo");
+        List<Punto> ruta = new ArrayList<Punto>();
+        ruta = conection.obtenerRuta();
         Destino destino;
     }
     

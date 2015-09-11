@@ -79,7 +79,7 @@ public class Letrero extends javax.swing.JPanel {
 
         jTextActual.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jTextActual.setText("TORO TORO");
-        jTextActual.setBorder(javax.swing.BorderFactory.createBevelBorder(0));
+        jTextActual.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jTextActual.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextActualActionPerformed(evt);
@@ -88,7 +88,7 @@ public class Letrero extends javax.swing.JPanel {
 
         jTextProximo.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jTextProximo.setText("CAPINOTA");
-        jTextProximo.setBorder(javax.swing.BorderFactory.createBevelBorder(0));
+        jTextProximo.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jTextProximo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextProximoActionPerformed(evt);
@@ -98,7 +98,7 @@ public class Letrero extends javax.swing.JPanel {
         jTextVelocidad.setFont(new java.awt.Font("Tahoma", 0, 30)); // NOI18N
         jTextVelocidad.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextVelocidad.setText("100");
-        jTextVelocidad.setBorder(javax.swing.BorderFactory.createBevelBorder(0));
+        jTextVelocidad.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jTextVelocidad.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextVelocidadActionPerformed(evt);
@@ -107,7 +107,7 @@ public class Letrero extends javax.swing.JPanel {
 
         jTextConductor.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jTextConductor.setText("Irvin Monte Rosa");
-        jTextConductor.setBorder(javax.swing.BorderFactory.createBevelBorder(0));
+        jTextConductor.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jTextConductor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextConductorActionPerformed(evt);
@@ -117,12 +117,12 @@ public class Letrero extends javax.swing.JPanel {
         jTextActivo.setFont(new java.awt.Font("Tahoma", 0, 30)); // NOI18N
         jTextActivo.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextActivo.setText("04:30");
-        jTextActivo.setBorder(javax.swing.BorderFactory.createBevelBorder(0));
+        jTextActivo.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         jTextBus.setFont(new java.awt.Font("Tahoma", 0, 30)); // NOI18N
         jTextBus.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextBus.setText("225");
-        jTextBus.setBorder(javax.swing.BorderFactory.createBevelBorder(0));
+        jTextBus.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         jLabel11.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
         jLabel11.setText("Hrs.");
