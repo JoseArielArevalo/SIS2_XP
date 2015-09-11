@@ -1,6 +1,7 @@
 package Interface;
 
 import Transporte.Controlador;
+import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Calendar;
@@ -300,6 +301,11 @@ private ActionListener actualizarPanel = new ActionListener() {
         public void actionPerformed(ActionEvent e) {
             Hora();
             jTextActivo.setText(cont.getHora());
+            
+            String[] list= cont.getHora().split(":");
+            if((Integer.parseInt(list[0]))>6){
+            jTextActivo.setBackground(Color.red);
+            }
         }
          
     };
