@@ -1,0 +1,12 @@
+
+Cuenta Gmail :
+
+cuenta: sis2umss@gmail.com
+pass: sistemasdeinformacion
+
+Entrar a docs:
+https://docs.google.com/presentation/d/1zssKBwgsm7xeaSRNd8fgvDKWWzGDn8dp8SCp9O7cDqg/edit#slide=id.p
+
+Ya existe cuenta en Parse:
+cuenta: sis2umss@gmail.com
+pass: sistemasdeinformacion
