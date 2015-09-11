@@ -43,7 +43,7 @@ public class TestChofer {
     Chofer chof= new Chofer(234324, "beto");
     assertEquals(chof.getCi(), 234324);
     assertEquals(chof.getNombre(), "beto");
-    assertEquals(chof.getNombre(), "sd");
+   
     }
     
 }
