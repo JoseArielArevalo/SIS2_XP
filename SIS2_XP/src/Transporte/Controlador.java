@@ -20,7 +20,7 @@ public Controlador(){
 hora=00;
 min=00;
 t= new Timer(1000*60, acciones);
-    
+t.start();
 } 
 
 private ActionListener acciones = new ActionListener() {
